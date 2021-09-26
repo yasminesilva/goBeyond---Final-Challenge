@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Corebiz GoBeyond Desafio Final
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ## Proposta do projeto
+<br/>
+A proposta do projeto era criar uma home page de um site institucional utilizando React. Utilizando como base o layout fornecido no Adobe XD abaixo. 
 
-## Available Scripts
+Desktop: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/specs/
 
-In the project directory, you can run:
+Mobile: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/screen/02609f96-fe10-4a61-b495-782296f4c193/specs/
 
-### `yarn start`
+> ## Ferramentas
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto criado utilizando [Create React App](https://github.com/facebook/create-react-app)  
+Para os ícones foi utilizada a biblioteca do [Material Design Icons](https://mui.com/pt/components/material-icons/)  
+Para a estilização dos componentes foi utilizada a biblioteca [Styled Components](https://styled-components.com/)  
+Para as chamadas de API foi utilizada a biblioteca [Axios](https://axios-http.com/) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> ## Configuração do projeto
+<br/>
 
-### `yarn test`
+Para rodar o projeto será necessário clonar o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/yasminesilva/goBeyond---Final-Challenge.git
 
-### `yarn build`
+Após o clone, entre na pasta clonada:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd goBeyond---Final-Challenge
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Então rode a instalação dos pacotes utilizando o NPM:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm i
 
-### `yarn eject`
+Após feita a instalãção, basta executar o ambiente de desenvolvimento com o comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para testar a versão de produção do projeto é necessário rodar o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm run build
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Isso fara o build da versão de produção para a pasta /build, após a finalização do processo, basta utilizar o comando:
 
-## Learn More
+npx serve build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Isso executará um ambiente local com a versão de produção recém gerada.
+<br/><br/>
