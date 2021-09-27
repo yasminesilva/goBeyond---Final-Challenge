@@ -66,6 +66,7 @@ export const ContentContainer = styled.div `
 
         .left-container, .rigth-container {
             width: 100%;
+            padding-right: 0;
         }
     }
 
